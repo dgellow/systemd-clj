@@ -2,5 +2,6 @@
 
 [](dependency)
 ```clojure
-[dgellow/systemd "0.1.0"] ;; latest release
+[dgellow/systemd "0.1.0-SNAPSHOT"] ;; latest release
 ```
+[](/dependency)
