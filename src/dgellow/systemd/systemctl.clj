@@ -13,7 +13,7 @@
       (map #(clojure.string/split % #" "))
       (map #(filter (fn [x] (not (clojure.string/blank? x))) %))))
 
-(defmacro deflistcommand* [name map-fn]
+(defmacro ^{:private true} deflistcommand* [name map-fn]
   `(defn ~name
      ([] (~name nil))
      ([pattern# & opts#]
