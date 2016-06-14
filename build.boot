@@ -7,6 +7,8 @@
 
 (def +version+ "0.1.0-SNAPSHOT")
 
+(bootlaces! +version+)
+
 (task-options!
   pom {:project     'dgellow/systemd
        :version     +version+
