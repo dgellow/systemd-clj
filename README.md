@@ -1,4 +1,4 @@
-# Clojure wrapper to systemd commands
+# Clojure wrapper for systemd commands
 
 [](dependency)
 ```clojure
